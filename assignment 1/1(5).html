@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: blue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <form action="">
+            <table border="2" align="center">
+                <tr>
+                    <th width="400"><label for="First Name">First Name</label></th>
+                    <th width="400"><input type="text" id="First Name" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th width="400"><label for="Last Name">Last Name</label></th>
+                    <th width="400"><input type="text" id="Last Name" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th width="400"><label for="Email">Email</label></th>
+                    <th width="400"><input type="email" id="Email" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th width="400"><label for="Password">Password</label></th>
+                    <th width="400"><input type="password" id="Password" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th width="400"><label for="Re-enter Password">Re-enter Password</label></th>
+                    <th width="400"><input type="password" id="Re-enter Password" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th colspan="1" rowspan="2" scope="rowgroup">Gender</th>
+                    <th scope="row"><input type="radio" id="Male" value="Male" name="Gender">Male</th>
+                </tr>
+                <tr>
+                    <th scope="row"><input type="radio" id="Female" value="Female" name="Gender">Female</th>
+                </tr>
+                <tr>
+                    <th><label for="Age">Age</label></th>
+                    <th><input type="number" id="Age" min="0" max="110" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th><label for="Address"></label>Address</th>
+                    <th><textarea style="width: 400px;height:100px;"></textarea></th>
+                </tr>
+                <tr>
+                    <th><label for="State"></label>State</th>
+                    <th><input type="text" id="State" style="width: 400px;"></th>
+                </tr>
+                <tr>
+                    <th><label for="Country"></label>Country</th>
+                    <th><select style="width: 400px">
+                        <option>Choose your country</option>
+                        <option>India</option>
+                        <option>Bhutan</option>
+                        <option>Nepal</option>
+                        <option>Sri Lanka</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th><label by="Languages Known"></label>Languages Known</th>
+                    <th><input type="checkbox">English <input type="checkbox">Kannada <input type="checkbox">Hindi <input type="checkbox">Telugu</th>
+                </tr>
+                <tr>
+                    <th colspan="2" align="left"><input type="checkbox">Hereby I declare all the given details are true</th>
+                </tr>
+                <tr>
+                    <th colspan="2" align="right">Log in to <a href="https://ethnus.com/" target="_new">Ethnus</a> website</th>
+                </tr>
+            </table>
+            <br>
+            <button style="display: block;margin: auto;">Register</button>
+            
+        </form>
+    </body>
+</html>
